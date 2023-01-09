@@ -8,7 +8,7 @@ export default function PageIndia() {
 		<div>
 			<h1>India</h1>
 
-			<img src="./assets/india_flag.jpg" alt="flag" />
+			<img style={{ display: 'block', margin: '0 auto', width: '800px', height: '500px' }} src="./assets/india_flag.jpg" alt="flag" />
 			<h2 >Suggested Treks:</h2>
 			<h3 onClick={() => navigate("/gangotri")} style={{ cursor: "pointer" }}>Gangotri Gomukh Tapovan trek</h3>
 			<h4>A Journey to the Source of River Ganga</h4>
@@ -16,6 +16,8 @@ export default function PageIndia() {
 			<h3 onClick={() => navigate("/roopkund")} style={{ cursor: "pointer" }}>Roopkund Trek</h3>
 			<h4>The most popular trek of them all !</h4>
 			<p>It's got everything going for it. Deep virgin forests, gurgling brooks, breath-taking campsites, miles of undulating meadows, snow and ice and the taste of a great adventure as you climb from 8,000 ft to 16,000 ft in six days.</p>
+
+			<p>https://www.youtube.com/watch?v=SGfxNpvPsuQ</p>
 
 		</div>
 	)
