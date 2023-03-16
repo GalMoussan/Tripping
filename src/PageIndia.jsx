@@ -16,9 +16,6 @@ export default function PageIndia() {
 			<h3 onClick={() => navigate("/roopkund")} style={{ cursor: "pointer" }}>Roopkund Trek</h3>
 			<h4>The most popular trek of them all !</h4>
 			<p>It's got everything going for it. Deep virgin forests, gurgling brooks, breath-taking campsites, miles of undulating meadows, snow and ice and the taste of a great adventure as you climb from 8,000 ft to 16,000 ft in six days.</p>
-
-			<p>https://www.youtube.com/watch?v=SGfxNpvPsuQ</p>
-
 		</div>
 	)
 }

@@ -7,6 +7,7 @@ import PageVietnam from "./PageVietnam";
 import PageThailand from "./PageThailand";
 import Gangotri from "./treks/Gangotri";
 import Roopkund from "./treks/Roopkund";
+import Kumamoto from "./cities/Kumamoto";
 
 export const ownerHeading = "Gal's WORLD-WIDE Trip guide";
 
@@ -48,6 +49,7 @@ export default function App() {
 					<Route path="/vietnam" element={<PageVietnam />} />
 					<Route path="gangotri" element={<Gangotri />} />
 					<Route path="roopkund" element={<Roopkund />} />
+					<Route path="Kumamoto" element={<Kumamoto />} />
 					<Route path="*" element={<Page404 />} />
 				</Routes>
 			</main>
